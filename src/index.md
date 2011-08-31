@@ -8,7 +8,7 @@ ERPNext is built on [WNFramework - A full stack web app framework in Python and 
 
 ### Download
 
-[Download the latest ERPNext Package](http://erpnext.org/erpnext-1.0.0.tar.gz)
+<a href="http://erpnext.org/erpnext-1.0.0.tar.gz" softlink="false">Download the latest source (erpnext-1.0.0.tar.gz)</a>
 
 ### Pre-requisites
 
