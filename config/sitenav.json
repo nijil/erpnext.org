@@ -1,0 +1,51 @@
+[
+	{
+		"label": "Home",
+		"href": "index.html",
+		"title": "Open Source ERP | Web Based ERP | ERPNext.org",
+		"description": "Open Source ERP with accounting, inventory management, crm and much more. Built on Python, MySQL and JS",
+		"keywords": "erp, open source, saas, web based"
+	},
+	{
+		"label": "Features (erpnext.com)",
+		"href": "https://www.erpnext.com/#!erpnext-features",
+		"subitems": [
+			{
+				"label": "Accounting",
+				"href": "https://www.erpnext.com/#!features-accounting"
+			},
+			{
+				"label": "Sales",
+				"href": "https://www.erpnext.com/#!features-sales"
+			},
+			{
+				"label": "Purchase",
+				"href": "https://www.erpnext.com/#!features-purchase"
+			},
+			{
+				"label": "Inventory",
+				"href": "https://www.erpnext.com/#!features-inventory"
+			},
+			{
+				"label": "Projects",
+				"href": "https://www.erpnext.com/#!features-projects"
+			},
+			{
+				"label": "Human Resources",
+				"href": "https://www.erpnext.com/#!features-human-resources"
+			},
+			{
+				"label": "Production",
+				"href": "https://www.erpnext.com/#!features-production"
+			},
+			{
+				"label": "Support",
+				"href": "https://www.erpnext.com/#!features-maintenance"
+			},
+			{
+				"label": "Analysis",
+				"href": "https://www.erpnext.com/#!features-analysis"
+			}
+		]
+	}
+]

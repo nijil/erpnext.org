@@ -1,0 +1,85 @@
+<h2>ERPNext: Open Source, Web Based ERP</h2>
+<p>ERPNext is an open source, web based ERP ideal for small and medium businesses. It is a feature rich app that covers accounting, inventory, sales (CRM), purchasing, projects, hrms (payroll), support and much more. Has a built-in report builder and form builder</p>
+<p><a href="https://github.com/webnotes/erpnext">Checkout our code on github</a></p>
+<p>ERPNext is built on <a href="https://github.com/webnotes/wnframwork">WNFramework - A full stack web app framework in Python and JS</a></p>
+<h3>Download</h3>
+<p><a href="http://erpnext.org/erpnext-1.0.0.tar.gz">Download the latest ERPNext Package</a></p>
+<h3>Pre-requisites</h3>
+<p>ERP Next has a web based client. Our install script currently runs on Linux (and Mac OSX). It should not be too hard to set it up on Windows (though we have not tried it)</p>
+<p>Pre-requisites:</p>
+<pre><code>MySQL
+Python (2.6 or above)
+Python-MySQL Connector (MySQLdb)
+Python libs: 
+    datetime
+    pytz
+</code></pre>
+<h3>Install instructions</h3>
+<p>Download the latest ERPNext package.</p>
+<p>Simple Instructions:</p>
+<pre><code>tar xzf erpnext-1.0.0.tar.gz
+cd erpnext
+sudo python install.py
+sudo apachectl restart (or equivalent)
+</code></pre>
+<ul>
+<li>
+<p>Start the browser at http://localhost:8080/</p>
+</li>
+<li>
+<p>Username: Administrator</p>
+</li>
+<li>Password: admin</li>
+</ul>
+<h3>Explanation</h3>
+<ol>
+<li>Enter the database name and password (no blank) for installation</li>
+<li>Enter your root database password (so that the script can create the db)</li>
+<li>The script will drop an apache configuration file called "erpnext.conf" with the erpnext folder as the document root. It will run a virtual host on the port specified in install_settings.py</li>
+</ol>
+<h3>I am new to Linux!</h3>
+<p>If you are a Linux newbie. Here are some tips to get your started:</p>
+<ol>
+<li>Install A Nice Linux Distro on your machine (<a href="http://www.ubuntu.com">Ubuntu</a>)</li>
+<li>Open the terminal: Accessories -&gt; Terminal</li>
+<li>Install the prerequisites using apt-get / yum:
+sudo apt-get install python-mysqldb</li>
+</ol>
+<p>Sample installing pre-requisites on Ubuntu:</p>
+<pre><code>sudo apt-get install apache2
+sudo apt-get install mysql-server
+sudo apt-get install python-mysqldb
+sudo apt-get install python-setuptools
+easy_install datetime
+easy_install pytz
+</code></pre>
+<h3>Questions / Forum</h3>
+<ul>
+<li><a href="http://groups.google.com/group/wnframework">Techincal Forum (Google Groups)</a></li>
+<li><a href="http://groups.google.com/group/erpnext-user-forum">ERP Related (Google Groups)</a></li>
+</ul>
+<h3>Bug Reports</h3>
+<ul>
+<li><a href="https://github.com/webnotes/erpnext/issues">File an issue at Github</a></li>
+</ul>
+<h3>License</h3>
+<ul>
+<li>ERPNext: <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a></li>
+<li>WNFramework: <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></li>
+</ul>
+<h3>Commercial</h3>
+<p>If you want to use this as a hosted (Software-as-a-service / Cloud) service, register at our commercial offering at <a href="https://erpnext.com">ERPNext.com</a></p>
+<h3>Donate</h3>
+<p>This app is a result of many years of labour. If you feel you have benefitted by using this application, please send us a donation so that we know you love us and want us to keep improving this app.</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="rmehta@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Web Notes Technologies Pvt Ltd">
+<input type="hidden" name="item_number" value="erpnext">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>

@@ -1,0 +1,8 @@
+{
+	"css:style_.css": [
+		"../lib/css/base.css",
+		"../lib/css/layout.css",
+		"../lib/css/skeleton.css",
+		"style.css"
+	]		
+}
