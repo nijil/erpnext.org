@@ -5,9 +5,9 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>{{% title %}}</title>
-	<meta name="description" content="{{% description %}}">
-	<meta name="keywords" content="{{% keywords %}}">
+	<title>{{ title }}</title>
+	<meta name="description" content="{{ description }}">
+	<meta name="keywords" content="{{ keywords }}">
 	<meta name="author" content="">
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,7 +16,7 @@
 	<!-- Mobile Specific Metas
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<script type="text/javascript">{{% boot %}}</script>
+	<script type="text/javascript">{{ boot }}</script>
 </head>
 <body>
 	<div class="outer">
@@ -28,14 +28,14 @@
 					<div><image class="logo-img" src="images/erpicons200x200.gif"></div>
 						<div class="logo">erpnext.org</div>
 					<nav>
-							{{% nav %}}
+							{{ nav }}
 					</nav>
 				</div>
 			</div>
 		</div>
 		<div class="twelve columns">
 			<div class="inner">
-				<div class="content current_page" _src="{{% src %}}">{{% content %}}</div>
+				<div class="content current_page" _src="{{ src }}">{% block content %}{% endblock %}</div>
 			</div>
 		</div>
 	</div>
